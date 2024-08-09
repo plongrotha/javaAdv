@@ -5,7 +5,7 @@ import genericClass.GenericType;
 public class GenericMethod {
   public static <T> boolean isEqual(GenericType<T> t1, GenericType<T> t2) {
     return t1.getValue().equals(t2.getValue());
-  }
+  } // this equal method is use to compare the value of two object
 
   public static void main(String[] args) {
     GenericType<Integer> t1 = new GenericType<>();
