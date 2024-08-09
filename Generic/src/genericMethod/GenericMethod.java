@@ -24,6 +24,14 @@ public class GenericMethod {
     return result;
   }
 
+  public static <T> List<T> combineCharacter(List<T> char1, List<T> char2) {
+
+    List<T> result = new ArrayList<>();
+    result.addAll(char1);
+    result.addAll(char2);
+    return result;
+  }
+
   public static void main(String[] args) {
     /*
      * GenericType<Integer> t1 = new GenericType<>();
@@ -49,14 +57,17 @@ public class GenericMethod {
     List<Integer> num2 = new ArrayList<>();
     num2.add(20);
     num2.add(19);
+    num2.add(18);
 
     List<Character> char1 = new ArrayList<>();
     char1.add('F');
     char1.add('M');
+    char1.add('O');
 
     List<Character> char2 = new ArrayList<>();
     char2.add('A');
     char2.add('V');
+    char2.add('B');
 
     List<String> result = combine(list1, list2);
     System.out.println(result); // this is to store all the lists of String
@@ -64,6 +75,10 @@ public class GenericMethod {
 
     List<Integer> result2 = combineNumber(num1, num2);
     System.out.println(result2); // this is to store all the lists of Integer
+
+    System.out.println("----------------------------");
+    List<Character> result3 = combineCharacter(char1, char2);
+    System.out.println(result3); // this is to store all the lists of Character
   }
 }
 
@@ -72,5 +87,5 @@ public class GenericMethod {
  * 
  * [moot, moot2, moot, moot2]
  * ----------------------------
- * [20, 19, 20, 19]
+ * [20, 19, 20, 19, 18]
  */
