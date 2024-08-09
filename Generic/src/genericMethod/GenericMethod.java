@@ -25,7 +25,6 @@ public class GenericMethod {
   }
 
   public static <T> List<T> combineCharacter(List<T> char1, List<T> char2) {
-
     List<T> result = new ArrayList<>();
     result.addAll(char1);
     result.addAll(char2);
@@ -90,4 +89,4 @@ public class GenericMethod {
  * [20, 19, 20, 19, 18]
  * ----------------------------
  * [F, M, O, A, V, B]
- */
+ */ 
