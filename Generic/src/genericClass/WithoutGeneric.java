@@ -14,9 +14,9 @@ public class WithoutGeneric {
   public static void main(String[] args) {
     WithoutGeneric type = new WithoutGeneric();
     type.setValue("leak");
+    type.setValue(20);
     String st = (String) type.getValue();
     System.out.println(st);
-
   }
 
 }
