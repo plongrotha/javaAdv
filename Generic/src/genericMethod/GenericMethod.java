@@ -11,8 +11,8 @@ public class GenericMethod {
     GenericType<Integer> t1 = new GenericType<>();
     t1.setValue(3);
     GenericType<Integer> t2 = new GenericType<>();
-    t1.setValue(3);
-    boolean testing = GenericMethod.<Integer>isEqual(t1, t2);
-    System.out.println(testing);
+    t2.setValue(3);
+    boolean testing = GenericMethod.isEqual(t1, t2);
+    System.out.println("===== " + testing + " =====");
   }
 }
