@@ -4,3 +4,12 @@
 - generic interface
 - generic method
 - generic wildcard
+
+
++ NOTE : Generic type
+E -Element (used extendsively by the java Collections framework, for example ArrayList, Set etc)
+
+K - Key (used in map)
+N - Number
+T - type
+V - Value (used in map)
