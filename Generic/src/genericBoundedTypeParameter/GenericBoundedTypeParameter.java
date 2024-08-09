@@ -2,8 +2,6 @@ package genericBoundedTypeParameter;
 
 import java.util.List;
 
-import javax.swing.event.ListSelectionEvent;
-
 public class GenericBoundedTypeParameter {
 
   public static <T extends Number> double sum(List<T> numbers) {
