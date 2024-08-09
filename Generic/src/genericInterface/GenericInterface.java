@@ -1,5 +1,5 @@
 package genericInterface;
 
-public class GenericInterface {
+public class GenericInterface<T, S> {
 
 }
