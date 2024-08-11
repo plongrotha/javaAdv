@@ -11,7 +11,7 @@ public class GenericBoundedTypeParameter {
     }
     return totle;
   }
-
+  
   public static void main(String[] args) {
     List<Integer> numbers = List.of(1, 2, 3, 4, 5, 6);
     double total = sum(numbers);

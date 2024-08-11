@@ -42,8 +42,10 @@ public class GenericMethod {
      */
 
     List<String> list1 = new ArrayList<String>();
-    list1.add("moot");
+    list1.add("moot1");
     list1.add("moot2");
+    list1.add("moot4");
+    list1.add("moot4");
 
     List<String> list2 = new ArrayList<String>();
     list2.add("moot");
