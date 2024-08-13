@@ -17,5 +17,7 @@ public class WithoutGeneric {
     String st = (String) type.getValue();
     System.out.println(st);
   }
+  
+  
 
 }
