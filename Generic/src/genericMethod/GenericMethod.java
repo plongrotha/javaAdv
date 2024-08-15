@@ -55,13 +55,10 @@ public class GenericMethod {
     List<Integer> num1 = new ArrayList<>();
     num1.add(20);
     num1.add(19);
-
     List<Integer> num2 = new ArrayList<>();
     num2.add(20);
     num2.add(19);
     num2.add(18);
-
-    
     List<Character> char1 = new ArrayList<>();
     char1.add('F');
     char1.add('M');
