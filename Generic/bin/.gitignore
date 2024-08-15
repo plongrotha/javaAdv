@@ -1,9 +1,3 @@
-/Genericshow.class
-/genericBoundedTypeParameter/
-/genericClass/
-/genericInheritence/
-/genericInterface/
-/genericMethod/
-/genericType/
-/genericWildcard/
-/UpperBoundWildcard/
+/LowerBoundWildcard/
+/UnBoundWildcard/
+/SubTypingusingGeneric/

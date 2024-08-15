@@ -61,6 +61,7 @@ public class GenericMethod {
     num2.add(19);
     num2.add(18);
 
+    
     List<Character> char1 = new ArrayList<>();
     char1.add('F');
     char1.add('M');
@@ -83,6 +84,7 @@ public class GenericMethod {
     System.out.println(result3); // this is to store all the lists of Character
   }
 }
+
 
 /*
  * here is the result of the program
