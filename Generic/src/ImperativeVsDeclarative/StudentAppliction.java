@@ -17,10 +17,14 @@ public class StudentAppliction {
 	public static void main(String[] args) {
 
 		List<Student> list1 = getstudents(students);
-		System.out.println(list1);
+		for (Student st : list1) {
+
+			System.out.println(st);
+		}
 
 	}
 
+	// function imperative style
 	public static List<Student> getstudents(List<Student> students) {
 
 		List<Student> list = new ArrayList<Student>();
@@ -39,8 +43,10 @@ public class StudentAppliction {
 		return list;
 	}
 
+	// declarative style
 	public static List<Student> getstudentsDeclarative(List<Student> students) {
 
 		return null;
 	}
+
 }
