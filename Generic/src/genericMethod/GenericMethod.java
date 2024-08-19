@@ -42,13 +42,13 @@ public class GenericMethod {
      * System.out.println("===== " + testing + " =====");
      */
 
-    List<String> list1 = new ArrayList<String>();
+    List<String> list1 = new ArrayList<>();
     list1.add("moot1");
     list1.add("moot2");
     list1.add("moot4");
     list1.add("moot4");
 
-    List<String> list2 = new ArrayList<String>();
+    List<String> list2 = new ArrayList<>();
     list2.add("moot");
     list2.add("moot2");
 
