@@ -25,12 +25,16 @@ public class StudentAppliction {
 
 			System.out.println(st);
 		}
+
 		System.out.println("declarative style");
 		List<Student> list2 = getstudents(students);
-		for (Student st : list2) {
+//		for (Student st : list2) {
+//
+//			System.out.println(st);
+//		}
 
-			System.out.println(st);
-		}
+		// use above and this it the same
+		list2.forEach(System.out::println);
 
 	}
 
