@@ -2,7 +2,7 @@ package functionalInterface;
 
 import java.util.function.Function;
 
-public class FunctionInterfaceDemo {
+public class FunctionDemo {
 
 	public static void main(String[] args) {
 		Function<String, Integer> getlength = new Tolength();
@@ -18,8 +18,9 @@ public class FunctionInterfaceDemo {
 		Function<String, Character> getchar = text -> text.charAt(0);
 		System.out.println(getchar.apply("Sey"));
 
-		Function<Integer, Integer> getpower = n -> (n * n) / 2;
-		System.out.println(getpower.apply(9));
+		Function<Integer, Integer> getpower = n -> (n * n);
+		System.out.println(getpower.apply(4));
+		
 	}
 
 	static class Tolength implements Function<String, Integer> {
@@ -31,3 +32,7 @@ public class FunctionInterfaceDemo {
 	}
 
 }
+/*
+
+        Function<T, R>
+*/
