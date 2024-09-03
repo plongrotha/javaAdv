@@ -27,6 +27,7 @@ public class ConsumerDemo {
 		};
 		str.forEach(display1);
 
+		// at this point is very important to learn about spring framework
 		Consumer<String> cars = vehicles -> {
 			System.out.println(vehicles);
 			if (vehicles == "honda") {
