@@ -1,4 +1,12 @@
-/genericMethod/
-/SubTypingusingGeneric/
 /GenericTypeErasur/
 /ImperativeVsDeclarative/
+/LowerBoundWildcard/
+/SubTypingusingGeneric/
+/UnBoundWildcard/
+/UpperBoundWildcard/
+/genericBoundedTypeParameter/
+/genericClass/
+/genericInheritence/
+/genericInterface/
+/genericMethod/
+/genericWildcard/

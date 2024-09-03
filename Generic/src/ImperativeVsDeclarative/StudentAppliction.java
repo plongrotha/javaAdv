@@ -22,7 +22,6 @@ public class StudentAppliction {
 		System.out.println("imperative style");
 		List<Student> list1 = getstudents(students);
 		for (Student st : list1) {
-
 			System.out.println(st);
 		}
 

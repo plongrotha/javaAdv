@@ -14,6 +14,6 @@ public class SubTypingusingGenericwildcard {
 
 		List<? extends Number> list = list1;
 		list = list2;
-		list = list3; // this have error mismatch
+//		list = list3; // this have error mismatch
 	}
 }
