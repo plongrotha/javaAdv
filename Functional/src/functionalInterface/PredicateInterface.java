@@ -23,6 +23,10 @@ public class PredicateInterface {
 		Predicate<Integer> isgreaterthenTen = isEven.and(greaterthan);
 		System.out.println(isgreaterthenTen.test(12));
 
+		Predicate<String> testString = Predicate.isEqual("Rotha");
+		boolean r = testString.test("Rotha");
+		System.out.println(r);
+
 	}
 
 }
